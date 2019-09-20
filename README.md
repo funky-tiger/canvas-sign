@@ -2,7 +2,7 @@
 
 ### 应用场景
 
-> 关于合同/协议 需要手写签字的业务场景 注: 该插件仅适用于Taro微信小程序， 其他端没有进行测试
+> 关于合同/协议 需要手写签字并获取签字后的图片的业务场景 注: 该插件仅适用于Taro微信小程序， 其他小程序/其他端没有进行测试
 
 ### 使用方法
 
@@ -121,7 +121,7 @@ const exportAction = false;
 /*注： 目前只支持.jpg格式*/
 ```
 
-#### 获取画布导出后的图片的回掉 onCanvasExport
+#### 获取画布导出后的图片的回调 onCanvasExport
 
 > type: Function
 
@@ -129,7 +129,15 @@ const exportAction = false;
 
 ```js
 const onCanvasExport = data => {
-  console.log("监听到exportAction的值发生变化后获取到的画布图片:", data);
+  console.log("监听到exportAction导出行为后获取到的画布图片:", data);
   /*注： 开发者只需改变该布尔值即可清除画布*/
 };
 ```
+
+#### homepage
+
+> https://github.com/funky-tiger/canvas-sign/blob/master/README.md
+
+#### issues
+
+> https://github.com/funky-tiger/canvas-sign/issues
