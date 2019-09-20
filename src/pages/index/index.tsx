@@ -1,6 +1,7 @@
 import Taro, { Component, Config } from "@tarojs/taro";
 import { View, Text } from "@tarojs/components";
-import { CanvasSign } from "../../components";
+// import {  } from "../../components";
+import { CanvasSign } from "canvas-sign";
 import styles from "./index.module.less";
 
 interface State {

@@ -3,15 +3,19 @@
 ### 使用方法
 
 ```js
-<CanvasSign
-  canvasWidth={String}
-  canvasHeight={String}
-  textOptions={Array}
-  lineOption={Array}
-  clearAction={Boolean}
-  exportAction={Boolean}
-  onCanvasExport={Function}
-/>
+1. /*安装*/ npm i canvas-sign -S
+
+2. /*引入*/ import { CanvasSign } from "canvas-sign";
+
+3. /*使用*/ <CanvasSign
+              canvasWidth={String}
+              canvasHeight={String}
+              textOptions={Array}
+              lineOption={Array}
+              clearAction={Boolean}
+              exportAction={Boolean}
+              onCanvasExport={Function}
+            />
 ```
 
 ### 相关 API
